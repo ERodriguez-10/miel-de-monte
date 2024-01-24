@@ -8,24 +8,24 @@ import Layout from "../layouts/Layout.astro";
   >
     <nav class="container mx-auto flex justify-between items-center py-4">
       <a
-        href="/"
+        href="#nosotros"
         class="uppercase underline underline-offset-8 decoration-4 decoration-orange-400 font-bold"
         >Nosotros</a
       >
-      <a href="/" class="uppercase font-bold">Productos</a>
+      <a href="#productos" class="uppercase font-bold">Productos</a>
 
-      <img src="/Marca.png" alt="Logo" width="128" />
+      <img src="/logo.png" alt="Logo" width="96" />
 
-      <a href="/" class="uppercase font-bold">Beneficios</a>
-      <a href="/" class="uppercase font-bold">Contacto</a>
+      <a href="#beneficios" class="uppercase font-bold">Beneficios</a>
+      <a href="#contacto" class="uppercase font-bold">Contacto</a>
     </nav>
   </div>
 
-  <div>
-    <img src="/home.png" alt="Banner" class="h-screen" />
+  <div class="h-[100vh] bg-white">
+    <img src="/home-2.png" alt="Banner" class="h-full w-full" />
   </div>
 
-  <main class="bg-gradient-to-b from-white to-orange-300 py-20">
+  <main class="bg-gradient-to-b from-white to-orange-300 py-20" id="nosotros">
     <div class="container mx-auto flex pt-20">
       <div class="w-1/2">
         <div class="flex">
@@ -72,7 +72,7 @@ import Layout from "../layouts/Layout.astro";
     </div>
   </main>
 
-  <div class="products-section">
+  <div class="products-section" id="productos">
     <div class="container mx-auto py-20">
       <div class="py-10 text-center">
         <span class="uppercase font title text-4xl text-orange-950 -ms-36"
@@ -95,8 +95,8 @@ import Layout from "../layouts/Layout.astro";
         <div class="xl:w-1/5 md:w-1/2 p-4 text-center">
           <div class="bg-white p-6 rounded-lg h-full border-8 border-gray-200">
             <img
-              class="h-64 rounded w-full object-cover object-center mb-6"
-              src="/producto.jpg"
+              class="h-64 rounded w-full object-contain object-center mb-6"
+              src="/Productos-04.png"
               alt="content"
             />
             <h2
@@ -116,8 +116,8 @@ import Layout from "../layouts/Layout.astro";
         <div class="xl:w-1/5 md:w-1/2 p-4 text-center">
           <div class="bg-white p-6 rounded-lg h-full border-8 border-gray-200">
             <img
-              class="h-64 rounded w-full object-cover object-center mb-6"
-              src="/producto.jpg"
+              class="h-64 rounded w-full object-contain object-center mb-6"
+              src="/Productos-05.png"
               alt="content"
             />
 
@@ -138,8 +138,8 @@ import Layout from "../layouts/Layout.astro";
         <div class="xl:w-1/5 md:w-1/2 p-4 text-center">
           <div class="bg-white p-6 rounded-lg h-full border-8 border-gray-200">
             <img
-              class="h-64 rounded w-full object-cover object-center mb-6"
-              src="/producto.jpg"
+              class="h-64 rounded w-full object-contain object-center mb-6"
+              src="/Productos-06.png"
               alt="content"
             />
             <h2
@@ -159,8 +159,8 @@ import Layout from "../layouts/Layout.astro";
         <div class="xl:w-1/5 md:w-1/2 p-4 text-center">
           <div class="bg-white p-6 rounded-lg h-full border-8 border-gray-200">
             <img
-              class="h-64 rounded w-full object-cover object-center mb-6"
-              src="/producto.jpg"
+              class="h-64 rounded w-full object-contain object-center mb-6"
+              src="/Productos-07.png"
               alt="content"
             />
             <h2
@@ -180,8 +180,8 @@ import Layout from "../layouts/Layout.astro";
         <div class="xl:w-1/5 md:w-1/2 p-4 text-center">
           <div class="bg-white p-6 rounded-lg h-full border-8 border-gray-200">
             <img
-              class="h-64 rounded w-full object-cover object-center mb-6"
-              src="/producto.jpg"
+              class="h-64 rounded w-full object-contain object-center mb-6"
+              src="/Productos-08.png"
               alt="content"
             />
             <h2
@@ -201,7 +201,7 @@ import Layout from "../layouts/Layout.astro";
     </div>
   </div>
 
-  <div class="why-us-section">
+  <div class="why-us-section" id="beneficios">
     <div class="container mx-auto pt-20 pb-60">
       <div class="py-10 text-center">
         <span class="uppercase font title text-4xl text-orange-950 ms-10"
@@ -212,7 +212,7 @@ import Layout from "../layouts/Layout.astro";
 
       <div class="flex">
         <div class="w-1/3 px-8 relative">
-          <img src="https://placehold.co/600x800" alt="Why us" />
+          <img src="/elegirnos-09.png" alt="Why us" />
 
           <div
             class="bg-white shadow-xl absolute -bottom-16 left-1/2 transform -translate-x-1/2 px-8 py-10 w-3/4"
@@ -244,7 +244,7 @@ import Layout from "../layouts/Layout.astro";
           </div>
         </div>
         <div class="w-1/3 px-8 pt-20 relative">
-          <img src="https://placehold.co/600x800" alt="Why us" />
+          <img src="/elegirnos-10.png" alt="Why us" />
 
           <div
             class="bg-white shadow-xl absolute -bottom-32 left-1/2 transform -translate-x-1/2 px-8 py-10 w-3/4"
@@ -270,7 +270,7 @@ import Layout from "../layouts/Layout.astro";
         </div>
 
         <div class="w-1/3 px-8 relative">
-          <img src="https://placehold.co/600x800" alt="Why us" />
+          <img src="/elegirnos-11.png" alt="Why us" />
 
           <div
             class="bg-white shadow-xl absolute -bottom-16 left-1/2 transform -translate-x-1/2 px-8 py-10 w-3/4"
@@ -294,7 +294,7 @@ import Layout from "../layouts/Layout.astro";
     </div>
   </div>
 
-  <div class="contact-section h-[500px]">
+  <div class="contact-section h-[500px]" id="contacto">
     <div class="container mx-auto">
       <div class="bg-white border-4 border-gray-300 w-1/2 mx-auto">
         <div class="pt-10 text-center">
@@ -373,7 +373,7 @@ import Layout from "../layouts/Layout.astro";
     <div class="container mx-auto text-white">
       <div class="flex justify-between items-center py-10">
         <div>
-          <img src="/Marca.png" alt="Logo" width="128" />
+          <img src="/logo.png" alt="Logo" width="128" />
         </div>
 
         <div>
@@ -402,6 +402,34 @@ import Layout from "../layouts/Layout.astro";
       </div>
     </div>
   </div>
+
+  <script>
+    // Get all the links
+    var links = document.querySelectorAll("nav a");
+
+    // Add a click event listener to each link
+    links.forEach(function (link) {
+      link.addEventListener("click", function () {
+        // Remove the active class from all links
+        links.forEach(function (link) {
+          link.classList.remove(
+            "underline",
+            "underline-offset-8",
+            "decoration-4",
+            "decoration-orange-400"
+          );
+        });
+
+        // Add the active class to the clicked link
+        this.classList.add(
+          "underline",
+          "underline-offset-8",
+          "decoration-4",
+          "decoration-orange-400"
+        );
+      });
+    });
+  </script>
 </Layout>
 
 <style>
@@ -432,7 +460,7 @@ import Layout from "../layouts/Layout.astro";
   }
 
   .contact-section {
-    background-image: url("https://placehold.co/1700x500");
+    background-image: url("/footer-12.png");
   }
 
   .footer-section {
