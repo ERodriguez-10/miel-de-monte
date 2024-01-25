@@ -21,9 +21,7 @@ import Layout from "../layouts/Layout.astro";
     </nav>
   </div>
 
-  <div class="h-[100vh] bg-white">
-    <img src="/home-2.png" alt="Banner" class="h-full w-full" />
-  </div>
+  <div class="bg-white home-section h-screen"></div>
 
   <main class="bg-gradient-to-b from-white to-orange-300 py-20" id="nosotros">
     <div class="container mx-auto flex pt-20">
@@ -73,8 +71,8 @@ import Layout from "../layouts/Layout.astro";
   </main>
 
   <div class="products-section" id="productos">
-    <div class="container mx-auto py-20">
-      <div class="py-10 text-center">
+    <div class="container mx-auto pt-20">
+      <div class="pb-6 pt-16 text-center">
         <span class="uppercase font title text-4xl text-orange-950 -ms-36"
           >Nuestros</span
         >
@@ -82,7 +80,7 @@ import Layout from "../layouts/Layout.astro";
       </div>
 
       <div class="text-center w-1/2 mx-auto">
-        <p class="text-xl pb-20 pt-10">
+        <p class="text-xl py-10">
           Contarnos con <span class="font-bold"
             >más de 5 variedades de miel</span
           >. llevando cada una el nombre del árbol cuyas flores proveen eI
@@ -91,11 +89,11 @@ import Layout from "../layouts/Layout.astro";
         </p>
       </div>
 
-      <div class="flex flex-wrap -m-4">
-        <div class="xl:w-1/5 md:w-1/2 p-4 text-center">
+      <div class="flex flex-wrap -m-4 pb-20">
+        <div class="xl:w-1/4 md:w-1/2 p-4 text-center">
           <div class="bg-white p-6 rounded-lg h-full border-8 border-gray-200">
             <img
-              class="h-64 rounded w-full object-contain object-center mb-6"
+              class="h-52 rounded w-full object-contain object-center mb-6"
               src="/Productos-04.png"
               alt="content"
             />
@@ -104,7 +102,7 @@ import Layout from "../layouts/Layout.astro";
             >
               Miel de Algarrobo
             </h2>
-            <p class="leading-relaxed text-base">
+            <p class="text-lg leading-7">
               Esta miel proviene de la flor del algarrobo. Este árbol florece
               luego del garabato. Las abejas realizan una miel, a partir de esta
               flor, semioscura y liviana, ideal para endulzar infusiones y
@@ -113,10 +111,10 @@ import Layout from "../layouts/Layout.astro";
           </div>
         </div>
 
-        <div class="xl:w-1/5 md:w-1/2 p-4 text-center">
+        <div class="xl:w-1/4 md:w-1/2 p-4 text-center">
           <div class="bg-white p-6 rounded-lg h-full border-8 border-gray-200">
             <img
-              class="h-64 rounded w-full object-contain object-center mb-6"
+              class="h-52 rounded w-full object-contain object-center mb-6"
               src="/Productos-05.png"
               alt="content"
             />
@@ -126,7 +124,7 @@ import Layout from "../layouts/Layout.astro";
             >
               Miel mistol
             </h2>
-            <p class="leading-relaxed text-base">
+            <p class="text-lg leading-7">
               Proviene de la planta melífera y frutal, nativa de las provincias
               del centro-norte. Utilizada en medicina tradicional, tiene
               propiedades pectorales y es utilizado para el tratamiento de
@@ -135,10 +133,10 @@ import Layout from "../layouts/Layout.astro";
           </div>
         </div>
 
-        <div class="xl:w-1/5 md:w-1/2 p-4 text-center">
+        <div class="xl:w-1/4 md:w-1/2 p-4 text-center">
           <div class="bg-white p-6 rounded-lg h-full border-8 border-gray-200">
             <img
-              class="h-64 rounded w-full object-contain object-center mb-6"
+              class="h-52 rounded w-full object-contain object-center mb-6"
               src="/Productos-06.png"
               alt="content"
             />
@@ -147,7 +145,7 @@ import Layout from "../layouts/Layout.astro";
             >
               Miel de Chañar
             </h2>
-            <p class="leading-relaxed text-base">
+            <p class="text-lg leading-7">
               Esta variedad de miel proviene de la flor del chañar. Forece en
               tercer lugar, luego del garabato y el algarrobo. Respecto de sus
               carac- terísticas organolépti- cas es una miel semioscura y
@@ -156,10 +154,10 @@ import Layout from "../layouts/Layout.astro";
           </div>
         </div>
 
-        <div class="xl:w-1/5 md:w-1/2 p-4 text-center">
+        <div class="xl:w-1/4 md:w-1/2 p-4 text-center">
           <div class="bg-white p-6 rounded-lg h-full border-8 border-gray-200">
             <img
-              class="h-64 rounded w-full object-contain object-center mb-6"
+              class="h-52 rounded w-full object-contain object-center mb-6"
               src="/Productos-07.png"
               alt="content"
             />
@@ -168,7 +166,7 @@ import Layout from "../layouts/Layout.astro";
             >
               Miel Multifloral
             </h2>
-            <p class="leading-relaxed text-base">
+            <p class="text-lg leading-7">
               Esta miel aparece en el mayor esplendor de la primavera, las
               abejas toman néctar las flores del monte y fabrican una miel
               oscura y fuerte al paladar, varia según la proporción de flores
@@ -176,40 +174,38 @@ import Layout from "../layouts/Layout.astro";
             </p>
           </div>
         </div>
+      </div>
 
-        <div class="xl:w-1/5 md:w-1/2 p-4 text-center">
-          <div class="bg-white p-6 rounded-lg h-full border-8 border-gray-200">
-            <img
-              class="h-64 rounded w-full object-contain object-center mb-6"
-              src="/Productos-08.png"
-              alt="content"
-            />
-            <h2
-              class="text-lg mb-4 uppercase underlineCustom underline decoration-8 font-bold"
-            >
-              Miel de Garabato
-            </h2>
-            <p class="leading-relaxed text-base">
-              Esta variedad proviene de la flor del garabato. EI garabato es la
-              prime- ra especie en florecen Es una miel clara, de cristalización
-              rápida. Tiene propiedades desifectantes, cicatri- zantes o
-              astringentes.
-            </p>
-          </div>
-        </div>
+      <div class="text-center">
+        <span class="uppercase font title text-4xl text-orange-950 ms-6"
+          >Por qué</span
+        >
       </div>
     </div>
   </div>
 
   <div class="why-us-section" id="beneficios">
-    <div class="container mx-auto pt-20 pb-60">
-      <div class="py-10 text-center">
-        <span class="uppercase font title text-4xl text-orange-950 ms-10"
-          >Por qué</span
-        >
-        <h2 class="subtitle text-8xl -mt-8">¿ elegirnos ?</h2>
+    <div class="text-center relative mb-24">
+      <h2 class="relative black-subtitle text-8xl z-50">
+        <span class="subtitle">¿</span>elegirnos<span class="subtitle">?</span>
+      </h2>
+      <img
+        src="/cosito-16.svg"
+        alt="Cosito"
+        class="w-1/3 absolute -top-2 left-1/2 transform -translate-x-1/2"
+      />
+    </div>
+    <div class="container mx-auto pb-60">
+      <!--
+      <div class="pb-10 text-center w-1/3 mx-auto">
+        <div class="z-10 testingBg bg-opacity-0 relative">
+          <span class="uppercase font title text-4xl text-orange-950 ms-10"
+            >Por qué</span
+          >
+          
+        </div>
       </div>
-
+       -->
       <div class="flex">
         <div class="w-1/3 px-8 relative">
           <img src="/elegirnos-09.png" alt="Why us" />
@@ -437,6 +433,11 @@ import Layout from "../layouts/Layout.astro";
     font-family: "Poppins", sans-serif;
   }
 
+  .black-subtitle {
+    font-family: "Sacramento", sans-serif;
+    color: #431407;
+  }
+
   .subtitle {
     font-family: "Sacramento", cursive;
     color: #ffaf21;
@@ -463,7 +464,53 @@ import Layout from "../layouts/Layout.astro";
     background-image: url("/footer-12.png");
   }
 
+  .home-section {
+    background-image: url("/banner-15.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .footer-section {
     background-color: #e6953a;
+  }
+
+  .banner {
+    width: 100%;
+    height: 200px;
+    background-color: white; /* Color de fondo blanco */
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid orange; /* Triángulo naranja en la parte superior */
+  }
+
+  .banner h1 {
+    font-family: "Brush Script MT", cursive; /* Fuente cursiva elegante */
+    color: orange; /* Texto naranja */
+  }
+
+  .testingBg {
+    background-color: #fff3e5;
+  }
+
+  .bottomHeader {
+    background-image: url("/cosito-16.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 180px;
   }
 </style>
